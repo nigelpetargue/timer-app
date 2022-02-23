@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="image/icons8-timer-50.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Timer App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="remaining-time">
+            <div class="col col-minutes">
+                <span class="big-text" id="minutes">0</span>
+                <span class="label">Minutes</span>
+            </div>
+            <div class="big-text">:</div>
+            <div class="col col-seconds">
+                <span class="big-text" id="seconds">00</span>
+                <span class="label">Seconds</span>
+            </div>
+        </div>
+        <div class="time-button">
+            <button class="btn btn-play"><i class="fa-solid fa-play"></i></button>
+            <button class="btn btn-pause"><i class="fa-solid fa-pause"></i></i></button>
+        </div>
+
+        <div class="increament-decreament">
+            <button class="increament" type="submit">+</button>
+            <button class="decreament" type="submit">-</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>Create by: Nigel Petargue</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
